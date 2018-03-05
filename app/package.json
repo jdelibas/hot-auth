@@ -1,0 +1,19 @@
+{
+  "main": "dist/main.js",
+  "dependencies": {
+    "electron-devtools-installer": "^2.2.0",
+    "emoji-data-css": "^1.0.1",
+    "fuse.js": "^3.2.0",
+    "node-2fa": "^1.1.2",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "redux-immutable-state-invariant": "^2.0.0",
+    "redux-persist": "^4.6.0",
+    "semantic-ui-css": "^2.3.0",
+    "semantic-ui-react": "^0.78.3",
+    "shortid": "^2.2.8"
+  }
+}

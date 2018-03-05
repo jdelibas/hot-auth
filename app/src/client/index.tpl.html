@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Hot Auth</title>
+    <style>
+      html, body, #main{
+        height: 100%;
+        margin:0;
+        padding:0;
+        -webkit-user-select: none;
+        cursor: default;
+        overflow: hidden;
+      }
+      .app-header{
+        /* padding-top: 2vh; */
+        -webkit-app-region: drag;
+      }
+      .scroll{
+        margin-top: 1vh;
+        height: 88vh;
+        max-height: 88vh;
+        padding: 0.3vh 1vh;
+        overflow-y: auto;
+      }
+      .action{
+        position: absolute;
+        top: 0.5em;
+        right: 1em;
+      }
+      ::-webkit-scrollbar {
+        background-color: #fff;
+        width: .3em
+      }
+      ::-webkit-scrollbar-thumb:window-inactive,
+      ::-webkit-scrollbar-thumb {
+              background: #999;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main"></div>
+  </body>
+</html>
